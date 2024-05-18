@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "file:C:\Users\nkediya\Downloads/testng-1.0.dtd">
 
 <suite name="Open Cart Regression Suite" verbose="3"
 	thread-count="5" parallel="tests">
 
 
-	<listeners>
+	<!-- <listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
 		<listener
 			class-name="com.qa.opencart.listeners.TestAllureListener" />
 		<listener
 			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
-	</listeners>
+	</listeners>-->
 
 
 
@@ -41,7 +41,7 @@
 		</classes>
 	</test> -->
 
-	<test name="Accounts Page Test_firefox_124">
+	<!--<test name="Accounts Page Test_firefox_124">
 		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="124.0" />
 		<parameter name="testname"

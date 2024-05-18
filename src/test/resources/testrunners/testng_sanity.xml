@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "file:C:\Users\nkediya\Downloads/testng-1.0.dtd">
 
 <suite name="Open Cart Sanity Suite" verbose="3"
 	thread-count="5" parallel="tests">
 
 
 	
-	<listeners>
+<!--	<listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
 		<listener
@@ -14,7 +14,7 @@
 		<listener
 			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
 	</listeners>
-	
+	-->
 	
 
 	<test name="Login Page Test chrome_sanity">
